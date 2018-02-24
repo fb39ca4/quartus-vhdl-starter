@@ -1,0 +1,11 @@
+# directories to ignore
+db
+incremental_db
+output_files
+simulation
+
+# file extensions to ignore
+*.qws
+
+# more specific filenames to ignore
+*dump.txt
