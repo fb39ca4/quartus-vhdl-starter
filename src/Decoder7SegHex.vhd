@@ -28,7 +28,20 @@ begin
     case to_integer(in_val) is
         when 0      => output <= "0111111";
         when 1      => output <= "0000110";
-		  --fill this out as necessary
+        when 2      => output <= "1011011";
+        when 3      => output <= "1001111";  
+        when 4      => output <= "1100110";
+        when 5      => output <= "1101101";
+        when 6      => output <= "1111101";
+        when 7      => output <= "0000111";
+        when 8      => output <= "1111111";
+        when 9      => output <= "1101111";
+        when 10     => output <= "1110111";
+        when 11     => output <= "1111100";
+        when 12     => output <= "1011000";
+        when 13     => output <= "1011110";
+        when 14     => output <= "1111001";
+        when 15     => output <= "1110001";
         when others => output <= "1000000";
     end case;
 end process;
